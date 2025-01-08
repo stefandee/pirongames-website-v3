@@ -1,0 +1,508 @@
+html
+{
+	width:100%;
+	height:100%;
+	margin: 0px;
+	padding: 0px;
+	min-width:800px;
+	background-color:#005685;
+}
+
+body
+{
+}
+
+img
+{
+	border: 0px;
+}
+
+a
+{
+	font: 12px Arial, Verdana, sans-serif;
+	font-weight: normal; 
+	color: #000000;
+	text-decoration: underline;
+	margin-top: 0px; 
+	text-align: left;
+}
+
+a:hover
+{
+	font: 12px Arial, Verdana, sans-serif;
+	font-weight: normal; 
+	text-decoration: underline;
+	color: #E06900;
+	margin-top: 0px; 
+	text-align: left;
+}
+
+#container
+{  
+	position:absolute;
+	left:0px;
+	top:15px;
+	width: 100%;
+	height: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#pageHeader 
+{ 
+	background: url("img/upshadow.png") repeat-x top;
+	/*position: relative;
+	left: 0px;
+	top: 10px;
+	width: 100%;*/
+	height: 91px;
+}
+
+#pageHeaderContent
+{ 
+	/*position:relative;*/
+	margin-left: 170px;
+	margin-top: 0px;
+	padding-top: 5px;
+}
+
+#pageHeaderContent span.one
+{
+	font: 48px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	margin-top: 0px; 
+	text-align: left;
+}
+
+#pageHeaderContent span.two
+{
+	font: 14px Arial, Verdana, sans-serif;
+	font-weight: normal;
+	margin-top: 0px; 
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#pageBody
+{ 
+	background-color: #CCD4CE;
+}
+
+
+
+#gameListLatest
+{
+	position:relative;
+	left: 170px;
+	top: 10px;
+	max-width: 256px; 
+	float:left;
+}
+
+#gameListComing
+{
+	position:relative;
+	left: 195px;
+	top: 10px;
+	max-width: 256px; 
+	float:left;
+}
+
+#gameListDevelopers
+{
+	position:relative;
+	left: 215px;
+	top: 10px;
+	max-width: 256px; 
+	float:left;
+}
+
+#gameBox
+{
+	position:relative;
+	left: 170px;
+	top: 10px;
+	height: auto;
+	float:left;
+}
+
+#textBox
+{
+	position:relative;
+	left: 170px;
+	top: 10px;
+	max-width: 640px; 
+	/*height: auto;
+	float:left;*/
+}
+
+#textBox p
+{
+	font: 12px Arial;
+	margin-left: 0px; 
+	margin-top: 0px; 
+	text-align: left;
+	color: #000000;
+	line-height: 110%;
+	font-weight: normal; 
+}
+
+#textBox a
+{
+	font: 12px Arial, Verdana, sans-serif;
+	font-weight: normal; 
+	color: #E06900;
+	text-decoration: none;
+}
+
+#textBox a:hover
+{
+	font: 12px Arial, Verdana, sans-serif;
+	font-weight: normal; 
+	text-decoration: none;
+	color: #FF6900;
+}
+
+#gameListTitle
+{
+	background: transparent url("img/sep.png") repeat-x left bottom;
+	width: 256px;
+	height: 36px;
+	margin-left: 0px; 
+	margin-top: 0px; 
+}
+
+#gameListTitle span.one
+{
+	font: 30px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	margin-left: 0px; 
+	margin-top: 0px; 
+	text-align: left;
+	color: #000000;
+}
+
+#games
+{
+	display:  table;
+	border-spacing:0px;
+	border-width: 0px;
+	padding: 0px 0px 0px 0px;
+	width: 256px;
+}
+
+#game
+{
+	display:  table-row;
+}
+
+#game span
+{
+    /*float: none;*/
+	line-height: 10%;
+}
+
+#game span.title
+{
+	font: 18px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	margin-top: 0px; 
+	text-align: left;
+	color: #000000;
+}
+
+/* oh, the horrors! :) */
+#game span.title a
+{
+	font: 18px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	color: #000000;
+	text-decoration: none;
+	margin-top: 0px; 
+	text-align: left;
+}
+
+#game span.title a:hover
+{
+	font: 18px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	text-decoration: none;
+	color: #E06900;
+	margin-top: 0px; 
+	text-align: left;
+}
+
+/* Small Title for Game - used in the bottom right of the game page */
+#game span.smalltitle
+{
+	font: 14px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	margin-top: 0px; 
+	text-align: left;
+	color: #000000;
+}
+
+/* oh, the horrors! :) */
+#game span.smalltitle a
+{
+	font: 14px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	color: #000000;
+	text-decoration: none;
+	margin-top: 0px; 
+	text-align: left;
+}
+
+#game span.smalltitle a:hover
+{
+	font: 14px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	text-decoration: none;
+	color: #E06900;
+	margin-top: 0px; 
+	text-align: left;
+}
+
+#game p.smallinfo
+{
+	font: 12px Arial;
+	margin-top: 0px; 
+	text-align: left;
+	color: #000000;
+	line-height: 110%;
+	width: 300px;
+}
+
+#game p.info
+{
+	font: 12px Arial;
+	margin-top: 0px; 
+	text-align: left;
+	color: #000000;
+	line-height: 110%;
+}
+
+#game span.hl
+{
+	font: 12px Arial;
+	margin-top: 0px; 
+	text-align: left;
+	color: #E06900;
+	line-height: 110%;
+}
+
+#game img.floatLeft
+{ 
+    float: left; 
+	clear:left;    
+	margin-left: 0px; 
+	margin-right: 4px; 
+	margin-top: 5px;
+	border: 0px;
+}
+
+#makeclean
+{
+  clear:both;
+}
+
+
+#gameInfo
+{
+	position:relative;
+	left: 170px;
+	max-width: 480px; 
+	/*line-height: 10%;*/
+
+	font: 12px Arial;
+	margin-top: 0px; 
+	text-align: left;
+	color: #000000;
+	line-height: 110%;
+	margin-right: 30px;
+	float:left;
+}
+
+/*
+#gameInfo span.text, p
+{
+}
+*/
+
+#gameInfo p.title
+{
+	font: 14px Arial, Verdana, sans-serif;
+	font-weight: bold; 
+	margin-top: 0px; 
+	text-align: left;
+	color: #000000;
+}
+
+#gameInfo ul 
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	list-style: none;
+}
+
+#gameInfo li 
+{
+	background: url("img/resources.png") no-repeat;
+	background-position: 6px 5px;
+	padding: 3px 0 3px 20px;
+
+	text-align: left;
+	list-style: none;
+	display: block;
+}
+
+#gameInfo p.mail
+{
+	background: url("img/mail.png") no-repeat;
+	background-position: 0px 8px;
+	padding: 3px 0 0px 15px;
+}
+
+#gameInfo p.share
+{
+	background: url("img/share.png") no-repeat;
+	background-position: 0px 5px;
+	padding: 3px 0 0px 15px;
+}
+
+#gameInfo gameGuide
+{
+}
+
+/*
+#embelish
+{
+	position:absolute;
+	background: transparent url("img/warbot.png") no-repeat left top;
+	left: 0px;
+	top: 0px;
+	width: 364px;
+	height: 379px;
+	//z-index:3;
+}
+*/
+
+#embelish a
+{
+	position:absolute;
+	background: transparent url("img/warbot.png") no-repeat left top;
+	left: 0px;
+	top: 0px;
+	width: 364px;
+	height: 379px;
+	display: block;
+}
+
+#embelish a span 
+{
+  visibility: hidden;
+}
+
+/*
+  Footer
+*/
+#pageFooter
+{
+	background: url("img/downshadow.png") repeat-x top;
+	height: 31px;
+	margin-bottom: 10%;
+}
+
+#pageFooterContent
+{
+	position:relative;
+	margin-left: 170px;
+	margin-top: 0px;
+	top: 0px;
+}
+
+#menu 
+{
+	/*background: #333;*/
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#menu li 
+{
+	float: left;
+	font: 12px Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#menu a 
+{
+	/*background: url("sep2.gif") bottom right no-repeat;*/
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 3px 12px;
+	text-decoration: none;
+	font-weight:normal;
+}
+
+#menu a:hover 
+{
+	background: #CCD4CE url("img/underline.png") bottom center repeat-x;
+	color: #E06900;
+	padding-bottom: 3px;                    
+}           
+
+#gamePageHeader
+{
+  position:relative;
+  left: 170px;
+
+  width: 800px;
+  margin: 0;
+  padding-top: 8px;
+  clear: left;
+}
+
+#gamePageHeader h1 
+{ 
+  float: left;
+  width: 186px; 
+  /*margin-top: 15px; */
+  font: normal 14px Arial, Verdana, sans-serif; 
+  color: #000000; 
+  /*text-transform: uppercase;*/
+}
+
+#gamePageHeader h1 span.title 
+{ 
+  display: block;
+  font-size: 18px; 
+  font-weight: bold; 
+  color: #000000; 
+  text-transform: none; 
+}
+
+#gamePageHeader h1 span.date
+{ 
+  display: block;
+  font-size: 12px; 
+  font-weight: normal; 
+  color: #000000; 
+  text-transform: none; 
+}
+
+#horizontal_top_ad
+{ 
+	width: 470px; 
+	text-align: center; 
+	margin-bottom: 15px; /* fix for star-rating in ad in games table */ 
+	min-height: 0px;
+	float:left;
+}
